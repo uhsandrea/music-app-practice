@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Screen 1-->
+    <div class="screen library">
+      <nav class="nav-bar">
+        <i class="fas fa-arrow-left fa-lg"></i>
+        <i class="fas fa-search fa-lg"></i>
+      </nav>
+
+      <section class="main-info library-musician">
+        <img
+          src="https://kpopmerchandiseguide.com/image/dreamcatcher-the-end-of-nightmare.jpg"
+        />
+        <h1>Dreamcatcher</h1>
+        <h5>K-pop, Rock</h5>
+      </section>
+
+      <section class="library__buttons">
+        <div class="library__shuffle-btn">Shuffle</div>
+        <div class="library__like-btn">
+          <i class="fas fa-heart"></i><span>1,057,913</span>
+        </div>
+      </section>
+
+      <ul class="library-songs__list">
+        <li class="library-song">
+          <div class="library-song__col">
+            <img
+              class="library-song__cover"
+              src="https://www.generasia.com/w/images/thumb/f/fc/Dreamcatcher_-_Dystopia.jpg/600px-Dreamcatcher_-_Dystopia.jpg"
+            />
+            <div class="library-song__text">
+              <h6 class="library-song__musician">Dreamcatcher</h6>
+              <h4 class="library-song__title">Scream</h4>
+            </div>
+          </div>
+          <div class="library-song__col">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </li>
+        <li class="library-song">
+          <div class="library-song__col">
+            <div id="library-current-playing">
+              <img
+                class="library-song__cover"
+                src="https://www.allkpop.com/upload/2020/08/content/181428/1597775280-dreamc.jpg"
+              />
+              <div id="playing-animation">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+            <div class="library-song__text">
+              <h6 class="library-song__musician">Dreamcatcher</h6>
+              <h4 class="library-song__title">Boca</h4>
+            </div>
+          </div>
+          <div class="library-song__col">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </li>
+        <li class="library-song">
+          <div class="library-song__col">
+            <img
+              class="library-song__cover"
+              src="https://www.generasia.com/w/images/thumb/7/7f/Dreamcatcher_-_Raid_of_Dream.jpg/200px-Dreamcatcher_-_Raid_of_Dream.jpg"
+            />
+            <div class="library-song__text">
+              <h6 class="library-song__musician">Dreamcatcher</h6>
+              <h4 class="library-song__title">Deja Vu</h4>
+            </div>
+          </div>
+          <div class="library-song__col">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </li>
+        <li class="library-song">
+          <div class="library-song__col">
+            <img
+              class="library-song__cover"
+              src="https://m.media-amazon.com/images/I/81rDuz8PsyL._SS500_.jpg"
+            />
+            <div class="library-song__text">
+              <h6 class="library-song__musician">Dreamcatcher</h6>
+              <h4 class="library-song__title">Full Moon</h4>
+            </div>
+          </div>
+          <div class="library-song__col">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </li>
+      </ul>
+
+      <section class="library__play-control-bar">
+        <div class="library__control-text">
+          <h6 class="library__control-musician">Dreamcatcher</h6>
+          <h4 class="library__control-title">Boca</h4>
+        </div>
+        <div class="library__control-bts">
+          <i class="fas fa-step-backward"></i>
+          <i class="fas fa-pause"></i>
+          <i class="fas fa-step-forward"></i>
+        </div>
+      </section>
+    </div>
+
+    <!--Screen 2-->
+    <div class="screen playing">
+      <nav class="nav-bar">
+        <i class="fas fa-arrow-left fa-lg"></i>
+        <i class="fas fa-ellipsis-v fa-lg"></i>
+      </nav>
+
+      <section class="main-info playing-music">
+        <img
+          class="playing-music__cover"
+          src="https://www.allkpop.com/upload/2020/08/content/181428/1597775280-dreamc.jpg"
+        />
+        <h1>Boca</h1>
+        <h5>Dreamcatcher</h5>
+      </section>
+
+      <section class="playing__control">
+        <div class="playing__times"><span>1:58</span><span>2:21</span></div>
+        <div class="playing__duration">
+          <div class="playing__drag-line"></div>
+          <div class="playing__drag-spot"></div>
+        </div>
+        <div class="playing__buttons">
+          <i class="fas fa-redo"></i>
+          <i class="fas fa-step-backward fa-lg"></i>
+          <i class="fas fa-play-circle fa-4x"></i>
+          <i class="fas fa-step-forward fa-lg"></i>
+          <i class="fas fa-random"></i>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
