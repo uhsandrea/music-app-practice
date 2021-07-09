@@ -1,3 +1,5 @@
 ## music-app-practice
 
-Music App - practice with basic HTML and CSS
+https://uhsandrea.github.io/music-app-practice/
+
+Music App - Front-end practice with basic HTML and CSS
